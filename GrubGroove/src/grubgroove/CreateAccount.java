@@ -40,7 +40,7 @@ public class CreateAccount extends JFrame {
         gbc.gridy = 0;
         gbc.weightx = 0;
         gbc.weighty = 1;
-        formPanel.add(labelcreateaccount, gbc);
+        formPanel.add(lblcreateaccount, gbc);
         
         gbc.gridx = 0;
         gbc.gridy = 1;
