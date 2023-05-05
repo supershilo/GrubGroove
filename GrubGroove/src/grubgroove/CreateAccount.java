@@ -155,34 +155,6 @@ public class CreateAccount extends JFrame{
         });
 
             }
-    
-    /*btnCreate.addActionListener(new ActionListener() {
-        public void actionPerformed(ActionEvent e){
-            String firstname = txtFirstName.getText();
-            String lastname = txtLastName.getText();
-            String address = txtAddress.getText();
-            String username =txtUsername.getText();
-            String password = new String(txtPassword.getPassword());
-            String email = txtEmail.getText();
-            try{
-            Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/grubgroove","root","pw");
-            String sqlquery = "INSERT INTO users (firstname,lastname,address,username,password,email) VALUES ('"+firstname+"','"+lastname+"','"+address+"','"+username+"','"+
-                    password+"','"+email+"')";
-            PreparedStatement pst = conn.prepareStatement(sqlquery);
-            if(pst.executeUpdate()!= 0){
-                JOptionPane.showMessageDialog(null,"You have successfully created an account.");
-            }
-            txtFirstName.setText("");
-            txtLastName.setText("");
-            txtAddress.setText("");
-            txtUsername.setText("");
-            txtPassword.setText("");
-            txtEmail.setText("");
-            }catch (SQLException ex) {
-                ex.printStackTrace();
-        }
-    }
-});*/
         
 
     public static void main(String[] args) {
